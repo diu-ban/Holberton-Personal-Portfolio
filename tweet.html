@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./media_queries.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav id="desktop-nav">
+        <div
+          class="logo"
+          onclick="location.href='./index.html'"
+          style="color: black; cursor: pointer"
+        >
+          Dieu Doan
+        </div>
+        <div>
+          <ul class="nav-links">
+            <li>
+              <a href="./index.html#about">About</a>
+            </li>
+            <li>
+              <a href="./index.html#experience">Experience</a>
+            </li>
+            <li>
+              <a href="./index.html#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Mobile Nav -->
+      <nav id="hamburger-nav">
+        <div class="logo" onclick="location.href='./index.html'">Dieu Doan</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li>
+              <a href="#about" onclick="toggleMenu()">About</a>
+            </li>
+            <li>
+              <a href="Experience" onclick="toggleMenu()">Experience</a>
+            </li>
+            <li>
+              <a href="#contact" onclick="toggleMenu()">Contact</a>
+            </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main style="background-color: black; height: 84vh; padding: 2vh">
+      <blockquote class="twitter-tweet">
+        <p lang="zxx" dir="ltr">
+          <a href="https://t.co/rHUTkuzKld">pic.twitter.com/rHUTkuzKld</a>
+        </p>
+        &mdash; chaotic memes (@memechaotic)
+        <a
+          href="https://twitter.com/memechaotic/status/1818051422367170735?ref_src=twsrc%5Etfw"
+          >July 29, 2024</a
+        >
+      </blockquote>
+      <script
+        async
+        src="https://platform.twitter.com/widgets.js"
+        charset="utf-8"
+      ></script>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  .arrow {
+    display: none;
+  }
+}
+@media screen and (max-width: 1150px) {
+  #about,
+  #experience {
+    margin-top: 10vh;
+  }
+  #about .section-container {
+    justify-content: center;
+    margin-top: 5vh;
+  }
+  .about-detail-container {
+    gap: 2.4rem;
+  }
+  #about .section-container .text-container {
+    text-align: center;
+  }
+  .modal-container img {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 990px) {
+  #about,
+  #experience,
+  #contact {
+    margin: 10vh 0;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    height: fit-content;
+  }
+  #about .section_pic-container {
+    align-self: center;
+  }
+  #about .section-container {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: fit-content;
+    gap: 5vh;
+  }
+  #footer {
+    padding: 2.4rem;
+  }
+  #footer .footer-desc {
+    font-size: 2rem;
+  }
+  #footer .footer-button-box {
+    padding: 2.4rem 1.6rem;
+  }
+}
+@media screen and (max-width: 680px) {
+  #profile {
+    margin: 0;
+    padding: 0 4vw;
+  }
+  #about.text-container {
+    width: 100%;
+  }
+  #experience {
+    margin-top: 10vh;
+  }
+  #experience .section-container {
+    flex-direction: column;
+    margin-bottom: 10vh;
+  }
+  #contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #contact .contact-box {
+    margin: 0;
+    margin-top: 10vh;
+  }
+}
+@media screen and (max-width: 570px) {
+  .about-containers {
+    flex-direction: column;
+  }
+  #about .section-container {
+    gap: 0;
+  }
+  #contact .contact-box {
+    gap: 1.2rem;
+    padding: 1.4rem;
+  }
+}

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./media_queries.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio</title>
+  </head>
+  <body style="position: relative">
+    <!-- Modal image -->
+    <div class="modal-container">
+      <img src="./asset/IMG_2541.jpg" alt="modal-pic" />
+    </div>
+    <!-- Header -->
+    <header>
+      <!-- Navbar -->
+      <nav id="desktop-nav">
+        <div class="logo" style="color: black">Dieu Doan</div>
+        <div>
+          <ul class="nav-links">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#experience">Experience</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- Mobile Nav -->
+      <nav id="hamburger-nav">
+        <div class="logo" style="color: black">Dieu Doan</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="Experience">Experience</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Profile -->
+      <section id="profile">
+        <div class="section_pic-container">
+          <img
+            src="./asset/profile-pic.png"
+            alt="Dieu Doan profile picture"
+            class="profile-picture"
+          />
+        </div>
+        <div class="profile-sec_info">
+          <p class="info_text-p1 sub-heading">Hello I'm</p>
+          <h1 class="title">Dieu Doan</h1>
+          <p class="info_text-p2 sub-heading">Junior Frontend Developer</p>
+          <div class="btn-container">
+            <button class="btn btn-color1" onclick="location.href='./#footer'">
+              Today's Quote
+            </button>
+            <button class="btn btn-color2" onclick="location.href='./#contact'">
+              Contact me
+            </button>
+          </div>
+          <div class="social-container">
+            <a
+              href="https://www.linkedin.com/in/dieu-doan-578874284"
+              target="_blank"
+              ><img
+                src="./asset/icons-linkedin.png"
+                alt="My Linkedin profile"
+                class="icon"
+            /></a>
+            <a href="https://github.com/diu-ban" target="_blank"
+              ><img
+                src="./asset/icons-github.png"
+                alt="My Github profile"
+                class="icon"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <!-- About -->
+      <section id="about">
+        <p class="sub-heading">A Little Bit</p>
+        <h2 class="title">About Me</h2>
+        <div class="section-container">
+          <div class="section_pic-container">
+            <img
+              src="./asset/profile-pic-01.png"
+              alt="profile picture"
+              class="profile-picture about-pic"
+            />
+          </div>
+          <div class="about-detail-container">
+            <div class="about-containers">
+              <div class="detail-container">
+                <img
+                  src="./asset/experience.png"
+                  alt="experience"
+                  class="experience icon"
+                />
+                <h3>Experience</h3>
+                <p>1 year<br />Frontend Development</p>
+              </div>
+              <div class="detail-container">
+                <img
+                  src="./asset/education.png"
+                  alt="education"
+                  class="education icon"
+                />
+                <h3>Education</h3>
+                <p>
+                  Bachelor of IT (2<sup>nd</sup> year)<br />Google Cybersecurity
+                </p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Expedita enim mollitia voluptatibus porro aliquam amet
+                voluptates accusamus eos officiis cumque velit, praesentium cum
+                aperiam debitis aliquid, obcaecati eius deserunt laboriosam
+                labore id explicabo inventore ut dolores dolorum. Enim ducimus
+                maxime tenetur et, neque id quos in distinctio rem ratione
+                corporis.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./asset/arrow.png"
+          alt="arrow"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+      <!-- Experience -->
+      <section id="experience">
+        <p class="sub-heading">Some Of My</p>
+        <h2 class="title">Experience</h2>
+        <div class="experience-container">
+          <h2 class="experience-sub-title">Development Skill Set</h2>
+          <div class="article-container">
+            <article>
+              <img
+                src="./asset/checkmark.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./asset/checkmark.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./asset/checkmark.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Javascript</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./asset/checkmark.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>Python</h3>
+                <p>Basic</p>
+              </div>
+            </article>
+            <article>
+              <img
+                src="./asset/checkmark.png"
+                alt="experience icon"
+                class="icon"
+              />
+              <div>
+                <h3>SQL</h3>
+                <p>Introductory</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <img
+          src="./asset/arrow.png"
+          alt="arrow"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <p class="sub-heading">Get In Touch</p>
+        <h2 class="title">Contact</h2>
+        <div class="contact-box">
+          <a href="mailto:dieudoan291003@gmail.com">
+            <div class="contact-item">
+              <img
+                src="./asset/email.png"
+                alt="email icon"
+                class="icon email-icon"
+              />
+              <p>dieudoan291003@gmail.com</p>
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/dieu-doan-578874284"
+            target="_blank"
+          >
+            <div class="contact-item">
+              <img
+                src="./asset/icons-linkedin.png"
+                alt="linkedin icon"
+                class="icon linkedin-icon"
+              />
+              <p>LinkedIn</p>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-button-box">
+        <p class="footer-desc">Something to cheer you up today 👇</p>
+        <button class="btn btn-color1" onclick="location.href='./tweet.html'">
+          Today's Quote 🤡
+        </button>
+      </div>
+      <p>
+        Made by Dinh Dieu Doan for
+        <a
+          href="https://apply.holbertonschool.com"
+          target="_blank"
+          class="footer-link"
+          >Holberton School</a
+        >.
+      </p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
